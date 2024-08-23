@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Gurman, a passionate software engineer showcasing recent projects and skills.">
+    <meta name="keywords" content="portfolio, software engineer, web development, projects, contact">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <h5>Hi I'm</h5><br>
+            <h1>Gurman</h1><br>
+            <p> I'm a passionate and aspiring software engineer with a strong desire to create innovative solutions and push the boundaries of technology. With a deep love for coding and problem-solving, I am constantly seeking opportunities to learn and grow in this ever-evolving field.</p>
+            <p>This is a showcase of my work and skills.</p>
+            <div class="btn-group">
+                <a href="#" class="btn active">Download CV</a>
+                <a href="#" class="btn">Contact</a>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Recent Projects</h2>
+            <div class="row">
+                <div class="col-md-4 gallery">
+                    <div class="card">
+                        <img src="https://blog.hubspot.com/hubfs/ecommerce-10.jpg" alt="Project 1">
+                        <h3>ECOMMERCE PROJECT</h3>
+                        <p>Creating an eCommerce platform designed to streamline online transactions, enhance user experience, and boost sales. This project will focus on developing a user-friendly interface, secure payment processing, and efficient inventory management. The goal is to provide a seamless shopping experience and drive business growth through innovative features.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 gallery">
+                    <div class="card">
+                        <img src="https://nexstor.com/wp-content/uploads/2023/03/FEATURED-IMAGE-TEMPLATE-Nexstor-2-1.png" alt="Project 2">
+                        <h3>CYBERSECURITY PROJECT</h3>
+                        <p>This cybersecurity project aims to develop a robust security framework to safeguard an organization's digital assets against evolving threats. The project encompasses a thorough risk assessment, vulnerability scanning, and penetration testing to identify potential weaknesses within the system. We will implement advanced security measures such as encryption, multi-factor authentication, and intrusion detection systems to enhance data protection. Additionally, the project includes developing a comprehensive incident response plan and conducting regular security training for employees to ensure awareness and preparedness.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 gallery">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.OtF13w_nmGZyaR165utCKgHaE8?rs=1&pid=ImgDetMain" alt="Project 3">
+                        <h3>BLOCKCHAIN DEVELOPMENT PROJECT</h3>
+                        <p>The term "blockchain project" describes an effort to build or develop a blockchain-based technology. Blockchain projects are commonly undertaken by startups, business units within larger companies, and even governments. They can also be executed by open-source communities not affiliated with any particular company or organization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thanks for visiting and happy coding!</p>
+        <p>&copy; Copyright 2024. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal for Image Slider -->
+    <div id="image-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <span id="image-modal-close" class="close" aria-label="Close">&times;</span>
+            <img src="" alt="Project Image" id="modal-image">
+        </div>
+    </div>
+
+    <button id="back-to-top" title="Back to Top">&uarr;</button>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
